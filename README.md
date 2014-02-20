@@ -9,7 +9,7 @@ It's a pretty straightforward process. You can skip 1 & 2 as I've included sampl
 
 2. (Optional) Open up iTunes and use Charles to record while you open up the most popular apps. Make sure to scroll to the bottom of the list so that all the images load.
 
-3. Export the session as a .csv. I called mine the cryptic itunes_images.csv
+3. Export the session as a .csv. I called mine the cryptic ```itunes_images.csv```
 
 4. Run the Python script ```scrape_images.py``` to download the images
 
