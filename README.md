@@ -17,4 +17,4 @@ It's a pretty straightforward process:
 
 Here's what the final image looks like:
 
-![Image](https://github.com/lindsayrgwatt/itunes-collage/blob/master/images/collage.jpg)
+![Image](https://github.com/lindsayrgwatt/itunes-collage/blob/master/images/collage.jpg?raw=true)
