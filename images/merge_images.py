@@ -24,8 +24,8 @@ images = [entry for entry in os.listdir(os.getcwd()) if '.png' in entry]
 
 side_length = 200
 
-num_horizontal = 12
-num_vertical = 15
+num_horizontal = 16
+num_vertical = 20
 
 collage = Image.new("RGB", (side_length * num_horizontal, side_length * num_vertical))
 
@@ -36,6 +36,10 @@ overall_counter = 0
 while counter_horizontal < num_horizontal:
 	counter_vertical = 0
 	while counter_vertical < num_vertical:
+		# Repeat images in larger version
+		if overall_counter >= len(images):
+			overall_counter -= len(images)
+
 		# Open the image
 		image = Image.open(images[overall_counter])
 		overall_counter += 1
@@ -53,4 +57,4 @@ while counter_horizontal < num_horizontal:
 
 
 # Save the image
-collage.save("collage.jpg", quality=95)
+collage.save("collage3.jpg", quality=95)
